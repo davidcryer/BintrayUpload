@@ -40,6 +40,13 @@ classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
 classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
 </pre>
 
+You also need to add your bintray apikey and username to your local.properties file:
+
+<pre>
+bintray.user=bintrayUsername
+bintray.apikey=bintrayApiKey
+</pre>
+
 To install the project to your local Maven and upload in to your maven repository on Bintray, use the following commands after cd'ing to your project's root directory:
 
 <pre>
